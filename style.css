@@ -1,0 +1,590 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 4% 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/usain2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.nav-logo{
+    margin: 0 20px 0 20px;
+}
+
+.navigation{
+    width: 100%;
+    padding: 1% 2%;
+    display: flex;
+    background-color: #000;
+    opacity: 0.5;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.menu-bar{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.social{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.toggle{
+    margin-top: 1%;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: none;
+}
+
+.menu-bar .fa{
+    font-size: 30px;
+}
+
+.icon{
+    font-size: 1.4rem;
+    padding: 0 15px;
+}
+
+.banner-text{
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.banner-text h1{
+    font-size: 13.5rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -5px;
+}
+
+.thick{
+    margin-top: -70px;
+}
+
+.banner-text h2{
+    letter-spacing: 9px;
+}
+
+.btn{
+    width: 180px;
+    padding: 15px 0;
+    border: none;
+    background-color: #334ed6;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.logo h1{
+    font-size: 2rem;
+}
+
+/*header end*/
+
+
+
+.main-container{
+    width: 100%;
+    background-color: #fff;
+}
+
+.shipping{
+    box-shadow: 10px 10px 20px 10px rgb(158, 157, 157);
+    padding: 0;
+    background-color: #fff;
+    border-radius: 2px solid rgb(219, 218, 218);
+}
+
+.box{
+    width: 25%;
+    border-right: 2px solid rgb(219,218,218);
+    display: flex;
+    flex-direction: column;
+    padding: 50px, 30px;
+    text-align: center;
+}
+
+.box1{
+    border: none;
+}
+
+.box-icon{
+    font-size: 3.2rem;
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.box h1{
+    color: rgb(10,55,122);
+    font-size: 2rem;
+}
+
+.box p{
+    padding: 15px;
+    line-height: 25px;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.cm{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1rem;
+}
+
+.offer{
+    width: 100%;
+    padding: 0;
+    box-shadow: 10px 10px 20px 10px rgb(158, 157, 157);
+}
+
+.left{
+    width: 50%;
+        background-color: #f2f0f1;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6%;
+}
+
+.left h1{
+    padding: 15px 0 20px 0;
+    color: rgb(10,55,122);
+    font-size: 2.1rem;
+}
+
+.left h2{
+    color: rgb(97,96,96);
+}
+
+.left p{
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.bask{
+    width: 100%;
+}
+
+.right{
+    padding: 0;
+}
+
+.timing{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.rate{
+    padding: 50px 0px;
+}
+
+.time{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 13px 15px;
+}
+
+.time h1{
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+.t-line{
+    width: 50%;
+}
+
+.btn-t{
+    font-size: 1rem;
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    margin-top: 45px;
+}
+
+.big{
+    font-size: 3.1rem;
+    color: #334ed6;
+    padding-right: 40px;
+}
+
+.small{
+    font-size: 2rem;
+}
+
+.shoe-gallery{
+    width: 100%;
+}
+
+.dark-img{
+    width: 100%;
+}
+
+/*shoe imag start*/
+
+.shoe-image1{
+    padding: 0 30px; 
+}
+
+.shoe-img{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.shoe-img h3{
+    color: rgb(10,55,122);
+    padding-left: 20px;
+}
+
+.big1{
+    color: #334ed6;
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding: 0 20px;
+}
+
+.shoe-img p{
+    margin-top: -10px;
+}
+
+.shoe-text{
+    width: 50%;
+    background-image: url("images/girlrun1.png");
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.shoe-text h1{
+    font-size: 4.2rem;
+    color: #fff;
+    line-height: 75px;
+}
+
+.shoe-text1{
+background-color: #000;
+color: #fff;
+}
+
+.shoe-text1 h2{
+font-size: 2.7rem;
+}
+
+.shoe-text p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.watch{
+    height: 60%;
+}
+
+.g-btn{
+    background-color: rgb(101, 149, 238);
+}
+
+.sunglasses{
+    border: none;
+}
+
+.boxes4{
+    padding: 0px 30px;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+}
+
+.btn5{
+    margin: 25px 0;
+}
+
+.img-box{
+    padding: 0;
+    border: none;
+}
+
+.logo-box{
+    width: 16.66%;
+    border: 1px solid rgb(219, 218, 218);
+    padding: 35px;
+}
+
+.logo-img{
+    width: 100%;
+}
+
+.brand-image{
+    border: none;
+}
+
+/*footer starts*/
+
+footer{
+    width: 100%;
+    background-color: #242424;
+    color: #fff;
+}
+
+.f-box{
+    width: 22%;
+}
+.f-box h1{
+    color: #334ed6;
+    font-size: 1.6rem;
+    padding-bottom: 20px;
+}
+
+.f-box p{
+    line-height: 35px;
+    font-size: 1rem;
+}
+
+.f-big{
+    width: 30%;
+    padding-left: 50px;
+}
+
+.social-icon{
+    width: 100%;
+    justify-content: flex-start;
+    margin: 25px 0 25px 0;
+}
+
+.social-l{
+    margin: 15px;
+    font-size: 1.8rem;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 100%;
+    color: black;
+}
+
+.fb{
+    padding: 5px 10px;
+}
+
+.in{
+    width: 100%;
+    height: 40px;
+    background-color: #31312e;
+    border-radius: 50px;
+    border: none;
+    margin-top: 25px;
+}
+
+.f-btn{
+    width: 150px;
+    height: 40px;
+    font: 1rem;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.copyright{
+    text-align: center;
+    padding: 40px 0;
+    letter-spacing: 2px;
+}
+
+.bl{
+    color: #334ed6;
+}
+
+.footer-section{
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+ul{
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1270px){
+    .social{
+        display: none;
+    }
+
+    .menu-bar{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .offer{
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+        padding: 6%;
+    }
+
+    .right{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .shipping .box{
+        width: 50%;
+        border: 2px solid #f2f0f1;
+    }
+
+    .shipping .img-box{
+        border: none;
+    }
+
+    .brand-image .logo-box{
+        width: 25%;
+    }
+
+    .banner-text h1{
+        font-size: 11rem;
+    }
+
+    .shoe-image1{
+        padding: 0;
+    }
+
+    .footer-section{
+        justify-content: space-between;
+    }
+
+    .f-box{
+        width: 33%;
+    }
+
+    .f-big{
+        width: 100%;
+        padding: 50px 0 0 0;
+    }
+
+    .in{
+        width: 350px;
+        display: black;
+    }
+
+    .sunglasses .shoe-text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .menu{
+        width: 100%;
+        position: relative;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    ul li{
+        padding: 0 20px 10px 0;
+    }
+
+    .toggle{
+        display: block;
+    }
+}
+
+@media only screen and(max-width: 547px){
+    .banner-text{
+        align-items: flex-start;
+    }
+
+    .banner-text h1{
+        font-size: 7rem;
+    }
+
+    .thick{
+        margin-top: -5%;
+    }
+    .main-container{
+        padding: 5%;
+    }
+
+    .shipping .box{
+        width: 100%;
+    }
+
+    .shipping .offer{
+        margin-bottom: 30px;
+    }
+    .f-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-icon{
+        justify-content: center;
+    }
+    .in .timing{
+        width: 100%;
+    }
+    .logo-img{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
